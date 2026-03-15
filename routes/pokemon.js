@@ -25,6 +25,4 @@ router.post('/nuevo', (req, res)=> {
     }
 });
 
-
-
 module.exports = router;
