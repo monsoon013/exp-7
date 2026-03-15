@@ -1,0 +1,45 @@
+[
+    {
+        "nombre": "Pikachu",
+        "tipo": "electrico",
+        "vida": 100,
+        "defensa": 65,
+        "ataques": [
+            {
+                "nombre": "Impactrueno",
+                "potencia": 40
+            },
+            {
+                "nombre": "Chispazo",
+                "potencia": 20
+            },
+            {
+                "nombre": "Voltio Cruel",
+                "potencia": 60
+            }
+        ]
+    },
+    {
+        "nombre":"Absol",
+        "tipo":"siniestro",
+        "vida":100,
+        "defensa":80,
+        "ataques":[
+            { "nombre":"Mordisco", "potencia":50 },
+            {"nombre":"Garra umbria", "potencia": 80},
+            {"nombre": "Cuchillada", "potencia": 70}
+        ]
+    },
+    {
+        "nombre": "Milotic",
+        "tipo": "agua",
+        "vida": 200,
+        "defensa": 50,
+        "ataques": [
+            {"nombre":"Cola dragon", "potencia": 60},
+            {"nombre": "Acua cola", "potencia": 90},
+            {"nombre":"Hidropulso", "potencia": 60}
+        ]
+    }
+
+]
