@@ -3,6 +3,11 @@ const router = express.Router();
 const  combatesAccess = require('../data/combatesAccess');
 const pokemons = require('../data/pokemons.json');
 
+router.get('/', (req, res) => {
+    const combatesActivos = combatesAccess.getAll();
+    res.json({combatesActivos});
+});
+
 router.get('/estado/:id', (req, res) => {
     const combate = combatesAccess.getById(Number(req.params.id));
     if(!combate) {return res.status(404).json({error: "Combate no iniciado"})}

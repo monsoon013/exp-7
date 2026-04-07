@@ -15,7 +15,7 @@ const combatesAccess = {
     },
     delete: (id) => {
         const initLength = _combates.combates.length;
-        _combates = _combates.combates.filter(c=> c.id !== id);
+        _combates.combates  = _combates.combates.filter(c=> c.id !== id);
         if(_combates.length !== initLength){
             combatesAccess._commit(); //evita saturar el disco con escrituras innecesarias, a diferencia de fs en cada línea , solo se reescribe el archivo si se ha modificado el array.
             return true;

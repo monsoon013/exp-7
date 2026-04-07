@@ -1,15 +1,17 @@
-[
-  {
-    "id": 1,
-    "pokemon1": {
-      "nombre": "Pikachu",
-      "vida": 100
-    },
-    "pokemon2": {
-      "nombre": "Absol",
-      "vida": 100
-    },
-    "turno": 1,
-    "ganador": null
-  }
-]
+{
+    "combates": [
+    {
+      "id": 1,
+      "pokemon1": {
+        "nombre": "Pikachu",
+        "vida": 100
+      },
+      "pokemon2": {
+        "nombre": "Absol",
+        "vida": 100
+      },
+      "turno": 1,
+      "ganador": null
+    }
+  ]
+}
