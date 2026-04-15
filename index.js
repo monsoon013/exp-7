@@ -8,7 +8,7 @@ const combatesRouter = require('./routes/combates.js');
 const PORT  = 3000;
 
 app.get('/', (req, res) => {
-    res.send("<p>Está funcionando correctamente</p>");
+    res.send("Está funcionando correctamente");
 })
 
 app.use('/pokemon', pokemonRouter);

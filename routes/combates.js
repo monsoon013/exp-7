@@ -3,7 +3,8 @@ const router = express.Router();
 const  combatesAccess = require('../data/combatesAccess');
 const pokemons = require('../data/pokemons.json');
 
-router.get('/', (req, res) => {
+router.get('/lista', (req, res) => {
+    console.log(combatesAccess.getAll());
     const combatesActivos = combatesAccess.getAll();
     res.json({combatesActivos});
 });
